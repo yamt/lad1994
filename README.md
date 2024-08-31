@@ -11,7 +11,8 @@ Written in 1994 in x86 assembler for the NEC PC-9800 series.
 Execute `lad.com`.
 I guess it requires `lstg.dat` in the current directory.
 
-In 2024, I was able to run it with [Neko Project II] and [FreeDOS(98)].
+In 2024, I was able to run it on an intel macbook with
+[Neko Project II] and [FreeDOS(98)].
 
 [Neko Project II]: https://www.yui.ne.jp/np2/
 
