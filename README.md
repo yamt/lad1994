@@ -4,6 +4,8 @@ A puzzle game.
 
 Written in 1994 in x86 assembler for the NEC PC-9800 series.
 
+![screenshot](img/screenshot.png)
+
 ## How to play
 
 Execute `lad.com`.
