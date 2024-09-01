@@ -27,8 +27,12 @@ According to the source code, especially [key_tbl],
 
 * ESC: quit the game
 
-The robot-like character (called `jos` in the source code) can collect
+The robot-like character (called `jos` in the source code) can only
+move when the beam it hitting it. It can collect
 the bombs. (the circle objects)
+
+The human-like character (called `hks` in the source code) can only
+move when the beam in NOT hitting it.
 
 The objective of the game is to [collect all bombs] it seems.
 
@@ -47,5 +51,5 @@ In 2024, I was able to run it on an intel macbook with
 
 [FreeDOS(98)]: http://bauxite.sakura.ne.jp/software/dos/freedos.htm
 
-I guess `mkladstg.com` is a stage editor. It seems like a mouse.
+I guess `mkladstg.com` is a stage editor. It seems to require a mouse.
 I (in 2024) haven't tried it yet.
