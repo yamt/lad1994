@@ -53,3 +53,13 @@ In 2024, I was able to run it on an intel macbook with
 
 I guess `mkladstg.com` is a stage editor. It seems to require a mouse.
 I (in 2024) haven't tried it yet.
+
+## The 2024 version
+
+I ported this game to [WASM-4].
+The new version even has in-game tutorial stages so that
+a player doesn't need to read the source code to see how to play!
+
+[WASM-4]: https://wasm4.org/
+
+[lad2024]: https://github.com/yamt/lad2024
