@@ -11,6 +11,35 @@ Written in 1994 in x86 assembler for the NEC PC-9800 series.
 Execute `lad.com`.
 I guess it requires `lstg.dat` in the current directory.
 
+According to the source code, especially [key_tbl],
+
+* cursor keys: move the character
+
+* space: [switch the character] to move
+
+* G: give up
+
+* N: move to the next stage
+
+* B: move to the previous stage
+
+* J: [jump to a stage] (enter the number and hit RETURN)
+
+* ESC: quit the game
+
+The robot-like character (called `jos` in the source code) can collect
+the bombs. (the circle objects)
+
+The objective of the game is to [collect all bombs] it seems.
+
+[key_tbl]: https://github.com/yamt/lad1994/blob/da3bf32a0f9a2425481b5a18580b3e7e84597829/lad/lad.asm#L286-L296
+
+[switch the character]: https://github.com/yamt/lad1994/blob/da3bf32a0f9a2425481b5a18580b3e7e84597829/lad/lad.asm#L106
+
+[jump to a stage]: https://github.com/yamt/lad1994/blob/da3bf32a0f9a2425481b5a18580b3e7e84597829/lad/lad.asm#L211
+
+[collect all bombs]: https://github.com/yamt/lad1994/blob/da3bf32a0f9a2425481b5a18580b3e7e84597829/lad/lad.asm#L206-L207
+
 In 2024, I was able to run it on an intel macbook with
 [Neko Project II] and [FreeDOS(98)].
 
@@ -18,4 +47,5 @@ In 2024, I was able to run it on an intel macbook with
 
 [FreeDOS(98)]: http://bauxite.sakura.ne.jp/software/dos/freedos.htm
 
-I guess `mkladstg.com` is a stage editor.
+I guess `mkladstg.com` is a stage editor. It seems like a mouse.
+I (in 2024) haven't tried it yet.
