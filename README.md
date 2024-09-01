@@ -35,6 +35,8 @@ The human-like character (called `hks` in the source code) can only
 move when the beam in NOT hitting it.
 
 The objective of the game is to [collect all bombs] it seems.
+(I have completely forgotten the existance of the `jcxz` instruction!
+It was handy when hand-writing assembly.)
 
 [key_tbl]: https://github.com/yamt/lad1994/blob/da3bf32a0f9a2425481b5a18580b3e7e84597829/lad/lad.asm#L286-L296
 
