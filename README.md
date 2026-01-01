@@ -28,11 +28,11 @@ According to the source code, especially [key_tbl],
 * ESC: quit the game
 
 The robot-like character (called `jos` in the source code) can only
-move when the beam it hitting it. It can collect
-the bombs. (the circle objects)
+move when the beam hits it.
+It can collect the bombs. (the circle objects)
 
 The human-like character (called `hks` in the source code) can only
-move when the beam in NOT hitting it.
+move when the beam does NOT hit it.
 
 The objective of the game is to [collect all bombs] it seems.
 (I have completely forgotten the existance of the `jcxz` instruction!
